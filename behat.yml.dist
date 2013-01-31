@@ -1,0 +1,8 @@
+default:
+  extensions:
+    swestcott\MonologExtension\Extension:
+      handlers:
+        stdout:
+          type: stream
+          path: /tmp/behat
+          level: debug
